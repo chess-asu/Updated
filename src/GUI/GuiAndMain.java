@@ -10,7 +10,7 @@ public class GuiAndMain extends Application {
     public void start(Stage primaryStage) {
         MainPane Main = new MainPane();
         Scene scene = new Scene(Main, 1100, 1100);
-        primaryStage.setTitle("Chess");
+        primaryStage.setTitle("Ches");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
